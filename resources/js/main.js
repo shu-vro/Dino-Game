@@ -220,7 +220,7 @@ function start() {
     // Declare the game speed and gravity.
     gameSpeed = 4;
     gravity = 1;
-    player = new Player(window.innerWidth / 100, 0, 50, 50, "#ff5858");
+    player = new Player(window.innerWidth / 20, 0, 50, 50, "#ff5858");
 
     scoreText = new text("Score: " + score, 25, 25, "left", "white", "20");
     highScoreText = new text(
