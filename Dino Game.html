@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <meta name="keywords" content="Document" />
+        <meta name="description" content="Your Description..." />
+        <title>Document</title>
+        <link rel="stylesheet" href="resources/css/style.css" />
+        <link
+            rel="shortcut icon"
+            href="resources/img/favicon.ico"
+            type="image/x-icon"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+        />
+    </head>
+    <body>
+        <canvas></canvas>
+        <div class="explain">
+            <div class="top">
+                <i class="fas fa-hand-point-up"></i>
+                <div>
+                    Click to <span style="color: crimson;">Jump</span>
+                </div>
+            </div>
+            <div class="bottom">
+                <i class="fas fa-hand-point-up"></i>
+                <div>
+                    Click to <span style="color: crimson;">Slide</span>
+                </div>
+            </div>
+        </div>
+
+        
+        <div class="startPanel shown">
+            <h1 id="scoreBox">0</h1>
+            <p>Point(s)</p>
+            <button>Play</button>
+        </div>
+
+        <!-- For Enemy image -->
+        <img
+            src="resources/img/tree.png"
+            alt=""
+            style="width: 0; height: 0; position: absolute; opacity: 0"
+            class="img1"
+        />
+        <img
+            src="resources/img/bird.png"
+            alt=""
+            style="width: 0; height: 0; position: absolute; opacity: 0"
+            class="img2"
+        />
+
+        <script src="resources/js/main.js"></script>
+    </body>
+</html>
